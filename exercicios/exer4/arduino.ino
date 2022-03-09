@@ -3,7 +3,7 @@ const int led = 5;
 
 
 int var1;
-int var2;
+
 
 void setup()
 {
@@ -19,7 +19,5 @@ void loop()
   if(var1){
     digitalWrite(led, HIGH);
   }
-   if(var2){
-    digitalWrite(led, HIGH);
-   }
+   
 }
